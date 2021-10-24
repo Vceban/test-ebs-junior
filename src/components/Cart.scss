@@ -1,0 +1,35 @@
+.cart {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .primary {
+    flex: 1;
+    background-color: darkorange;
+  }
+  .cart-items {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    li {
+      display: flex;
+      div {
+        padding: 0.5rem;
+        &:last-child {
+          flex: 1;
+        }
+      }
+      .remove {
+        text-align: right;
+      }
+    }
+  }
+}
+.cart-header {
+  border-bottom: 1px black solid;
+}

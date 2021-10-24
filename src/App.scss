@@ -1,0 +1,37 @@
+.body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  .sidebar {
+    flex: 1 10rem;
+    text-align: center;
+  }
+  .main {
+    flex: 3 20rem;
+    thead {
+      th {
+        padding: 10px;
+        border: solid 1px;
+      }
+    }
+    tbody {
+      th {
+        padding: 5px;
+        border: solid 1px;
+        button {
+          background-color: #ffc000;
+          border: 1rem;
+          height: 30px;
+          width: 60px;
+          &:hover {
+            border: 0.1rem #808080 solid;
+          }
+          i {
+          }
+        }
+      }
+    }
+  }
+}
